@@ -18,7 +18,7 @@ const Part = (props) => {
   );
 };
 
-const Content = (props) => {
+const Content = () => {
   return (
     <div>
       <Part part={part1} exercises={exercises1} />
